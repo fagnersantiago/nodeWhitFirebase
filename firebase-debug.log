@@ -1,0 +1,161 @@
+[debug] [2022-03-17T20:14:57.625Z] ----------------------------------------------------------------------
+[debug] [2022-03-17T20:14:57.629Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\fagne\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve --only functions
+[debug] [2022-03-17T20:14:57.630Z] CLI Version:   7.12.1
+[debug] [2022-03-17T20:14:57.630Z] Platform:      win32
+[debug] [2022-03-17T20:14:57.630Z] Node Version:  v16.14.0
+[debug] [2022-03-17T20:14:57.633Z] Time:          Thu Mar 17 2022 17:14:57 GMT-0300 (Horário Padrão de Brasília)
+[debug] [2022-03-17T20:14:57.633Z] ----------------------------------------------------------------------
+[debug] [2022-03-17T20:14:57.633Z] 
+[debug] [2022-03-17T20:14:57.655Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-03-17T20:14:57.656Z] > authorizing via signed-in user
+[debug] [2022-03-17T20:14:57.657Z] [iam] checking project advance-genre-288911 for permissions ["firebase.projects.get"]
+[debug] [2022-03-17T20:14:57.660Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/advance-genre-288911:testIamPermissions  
+
+[debug] [2022-03-17T20:14:58.883Z] <<< HTTP RESPONSE 200
+[debug] [2022-03-17T20:14:58.892Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/advance-genre-288911  
+ 
+[debug] [2022-03-17T20:15:00.205Z] <<< HTTP RESPONSE 200
+[warn] !  Your requested "node" version "16.14.0" doesn't match your global version "16"
+[info] +  functions: Emulator started at http://localhost:5000
+[info] i  functions: Watching "C:\Users\fagne\Documents\fireBaseWithTs\functions" for Cloud Functions...
+[debug] [2022-03-17T20:15:00.574Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2022-03-17T20:15:00.575Z] [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2022-03-17T20:15:00.576Z] [worker-pool] submitWork(triggerId=)
+[debug] [2022-03-17T20:15:00.578Z] [worker-~diagnostic~-adcef1a9-804a-495a-82c2-b1cf7e349875]: Assigning socketPath: \\?\pipe\C:\Users\fagne\Documents\fireBaseWithTs\functions\780
+[debug] [2022-03-17T20:15:00.580Z] [worker-~diagnostic~-adcef1a9-804a-495a-82c2-b1cf7e349875]: BUSY
+[debug] [2022-03-17T20:15:01.448Z] [runtime-status] [780] Functions runtime initialized. {"cwd":"C:\\Users\\fagne\\Documents\\fireBaseWithTs\\functions","node_version":"16.14.0"}
+[info] >  (node:780) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+[info] >  (Use `node --trace-warnings ...` to show where the warning was created)
+[debug] [2022-03-17T20:15:01.452Z] [runtime-status] [780] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2022-03-17T20:15:01.456Z] [runtime-status] [780] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"C:\\Users\\fagne\\Documents\\fireBaseWithTs\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2022-03-17T20:15:01.464Z] [runtime-status] [780] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.19.0","resolution":"C:\\Users\\fagne\\Documents\\fireBaseWithTs\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2022-03-17T20:15:01.467Z] [runtime-status] [780] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.19.0","resolution":"C:\\Users\\fagne\\Documents\\fireBaseWithTs\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[info] +  functions[firstApiWithFirebase]: http function initialized (http://localhost:5000/advance-genre-288911/us-central1/firstApiWithFirebase).
+[debug] [2022-03-17T20:15:02.212Z] [worker-~diagnostic~-adcef1a9-804a-495a-82c2-b1cf7e349875]: IDLE
+[debug] [2022-03-17T20:15:07.486Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-03-17T20:15:07.487Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-03-17T20:15:07.487Z] Accepted request GET /advance-genre-288911/us-central1/firstApiWithFirebase --> firstApiWithFirebase
+[debug] [2022-03-17T20:15:07.508Z] [worker-pool] addWorker(firstApiWithFirebase)
+[debug] [2022-03-17T20:15:07.509Z] [worker-pool] Adding worker with key firstApiWithFirebase, total=1
+[debug] [2022-03-17T20:15:07.509Z] [worker-pool] submitWork(triggerId=firstApiWithFirebase)
+[debug] [2022-03-17T20:15:07.509Z] [worker-firstApiWithFirebase-efd1511c-1417-411e-889c-bada6de7b314]: Assigning socketPath: \\?\pipe\C:\Users\fagne\Documents\fireBaseWithTs\functions\9220
+[debug] [2022-03-17T20:15:07.510Z] [worker-firstApiWithFirebase-efd1511c-1417-411e-889c-bada6de7b314]: BUSY
+[debug] [2022-03-17T20:15:08.578Z] [runtime-status] [9220] Functions runtime initialized. {"cwd":"C:\\Users\\fagne\\Documents\\fireBaseWithTs\\functions","node_version":"16.14.0"}
+[info] >  (node:9220) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+[info] >  (Use `node --trace-warnings ...` to show where the warning was created)
+[debug] [2022-03-17T20:15:08.589Z] [runtime-status] [9220] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2022-03-17T20:15:08.599Z] [runtime-status] [9220] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"C:\\Users\\fagne\\Documents\\fireBaseWithTs\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2022-03-17T20:15:08.612Z] [runtime-status] [9220] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.19.0","resolution":"C:\\Users\\fagne\\Documents\\fireBaseWithTs\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2022-03-17T20:15:08.620Z] [runtime-status] [9220] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.19.0","resolution":"C:\\Users\\fagne\\Documents\\fireBaseWithTs\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2022-03-17T20:15:09.943Z] [runtime-status] [9220] Trigger "firstApiWithFirebase" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "firstApiWithFirebase"
+[debug] [2022-03-17T20:15:09.945Z] [runtime-status] [9220] triggerDefinition {"httpsTrigger":{},"name":"firstApiWithFirebase","entryPoint":"firstApiWithFirebase"}
+[debug] [2022-03-17T20:15:09.946Z] [runtime-status] [9220] Running firstApiWithFirebase in mode HTTPS
+[debug] [2022-03-17T20:15:09.954Z] [runtime-status] [9220] Attempting to listen to socketPath: \\?\pipe\C:\Users\fagne\Documents\fireBaseWithTs\functions\9220
+[debug] [2022-03-17T20:15:09.964Z] [functions] Runtime ready! Sending request!
+[debug] [2022-03-17T20:15:09.980Z] [runtime-status] [9220] Ephemeral server handling GET request
+[debug] [2022-03-17T20:15:09.985Z] [runtime-status] [9220] Ephemeral server survived.
+[info] i  functions: Finished "firstApiWithFirebase" in ~1s
+[debug] [2022-03-17T20:15:10.005Z] [worker-firstApiWithFirebase-efd1511c-1417-411e-889c-bada6de7b314]: IDLE
+[debug] [2022-03-17T20:15:10.006Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-03-17T20:16:00.298Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-03-17T20:16:00.299Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-03-17T20:16:00.299Z] Accepted request POST /advance-genre-288911/us-central1/firstApiWithFirebase --> firstApiWithFirebase
+[debug] [2022-03-17T20:16:00.299Z] [worker-pool] submitWork(triggerId=firstApiWithFirebase)
+[debug] [2022-03-17T20:16:00.300Z] [worker-firstApiWithFirebase-efd1511c-1417-411e-889c-bada6de7b314]: Assigning socketPath: \\?\pipe\C:\Users\fagne\Documents\fireBaseWithTs\functions\9220
+[debug] [2022-03-17T20:16:00.300Z] [worker-firstApiWithFirebase-efd1511c-1417-411e-889c-bada6de7b314]: BUSY
+[debug] [2022-03-17T20:16:00.302Z] [runtime-status] [9220] Trigger "firstApiWithFirebase" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "firstApiWithFirebase"
+[debug] [2022-03-17T20:16:00.305Z] [runtime-status] [9220] triggerDefinition {"httpsTrigger":{},"name":"firstApiWithFirebase","entryPoint":"firstApiWithFirebase"}
+[debug] [2022-03-17T20:16:00.307Z] [runtime-status] [9220] Running firstApiWithFirebase in mode HTTPS
+[debug] [2022-03-17T20:16:00.310Z] [runtime-status] [9220] Attempting to listen to socketPath: \\?\pipe\C:\Users\fagne\Documents\fireBaseWithTs\functions\9220
+[debug] [2022-03-17T20:16:00.316Z] [functions] Runtime ready! Sending request!
+[debug] [2022-03-17T20:16:00.589Z] [runtime-status] [9220] Ephemeral server handling POST request
+[debug] [2022-03-17T20:16:00.593Z] [runtime-status] [9220] Ephemeral server survived.
+[info] i  functions: Finished "firstApiWithFirebase" in ~1s
+[debug] [2022-03-17T20:16:00.606Z] [worker-firstApiWithFirebase-efd1511c-1417-411e-889c-bada6de7b314]: IDLE
+[debug] [2022-03-17T20:16:00.609Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-03-17T20:17:37.469Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-03-17T20:17:37.470Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-03-17T20:17:37.470Z] Accepted request POST /advance-genre-288911/us-central1/firstApiWithFirebase --> firstApiWithFirebase
+[debug] [2022-03-17T20:17:37.470Z] [worker-pool] submitWork(triggerId=firstApiWithFirebase)
+[debug] [2022-03-17T20:17:37.470Z] [worker-firstApiWithFirebase-efd1511c-1417-411e-889c-bada6de7b314]: Assigning socketPath: \\?\pipe\C:\Users\fagne\Documents\fireBaseWithTs\functions\9220
+[debug] [2022-03-17T20:17:37.470Z] [worker-firstApiWithFirebase-efd1511c-1417-411e-889c-bada6de7b314]: BUSY
+[debug] [2022-03-17T20:17:37.472Z] [runtime-status] [9220] Trigger "firstApiWithFirebase" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "firstApiWithFirebase"
+[debug] [2022-03-17T20:17:37.474Z] [runtime-status] [9220] triggerDefinition {"httpsTrigger":{},"name":"firstApiWithFirebase","entryPoint":"firstApiWithFirebase"}
+[debug] [2022-03-17T20:17:37.475Z] [runtime-status] [9220] Running firstApiWithFirebase in mode HTTPS
+[debug] [2022-03-17T20:17:37.475Z] [runtime-status] [9220] Attempting to listen to socketPath: \\?\pipe\C:\Users\fagne\Documents\fireBaseWithTs\functions\9220
+[debug] [2022-03-17T20:17:37.478Z] [functions] Runtime ready! Sending request!
+[debug] [2022-03-17T20:17:37.485Z] [runtime-status] [9220] Ephemeral server handling POST request
+[debug] [2022-03-17T20:17:37.486Z] [runtime-status] [9220] Ephemeral server survived.
+[info] i  functions: Finished "firstApiWithFirebase" in ~1s
+[debug] [2022-03-17T20:17:37.491Z] [worker-firstApiWithFirebase-efd1511c-1417-411e-889c-bada6de7b314]: IDLE
+[debug] [2022-03-17T20:17:37.491Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-03-17T20:35:07.119Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-03-17T20:35:07.120Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-03-17T20:35:07.120Z] Accepted request POST /advance-genre-288911/us-central1/firstApiWithFirebase --> firstApiWithFirebase
+[debug] [2022-03-17T20:35:07.123Z] [worker-pool] submitWork(triggerId=firstApiWithFirebase)
+[debug] [2022-03-17T20:35:07.123Z] [worker-firstApiWithFirebase-efd1511c-1417-411e-889c-bada6de7b314]: Assigning socketPath: \\?\pipe\C:\Users\fagne\Documents\fireBaseWithTs\functions\9220
+[debug] [2022-03-17T20:35:07.124Z] [worker-firstApiWithFirebase-efd1511c-1417-411e-889c-bada6de7b314]: BUSY
+[debug] [2022-03-17T20:35:07.126Z] [runtime-status] [9220] Trigger "firstApiWithFirebase" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "firstApiWithFirebase"
+[debug] [2022-03-17T20:35:07.131Z] [runtime-status] [9220] triggerDefinition {"httpsTrigger":{},"name":"firstApiWithFirebase","entryPoint":"firstApiWithFirebase"}
+[debug] [2022-03-17T20:35:07.132Z] [runtime-status] [9220] Running firstApiWithFirebase in mode HTTPS
+[debug] [2022-03-17T20:35:07.133Z] [runtime-status] [9220] Attempting to listen to socketPath: \\?\pipe\C:\Users\fagne\Documents\fireBaseWithTs\functions\9220
+[debug] [2022-03-17T20:35:07.136Z] [functions] Runtime ready! Sending request!
+[debug] [2022-03-17T20:35:07.151Z] [runtime-status] [9220] Ephemeral server handling POST request
+[debug] [2022-03-17T20:35:07.158Z] [runtime-status] [9220] Ephemeral server survived.
+[info] i  functions: Finished "firstApiWithFirebase" in ~1s
+[debug] [2022-03-17T20:35:07.166Z] [worker-firstApiWithFirebase-efd1511c-1417-411e-889c-bada6de7b314]: IDLE
+[debug] [2022-03-17T20:35:07.166Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-03-17T20:36:41.159Z] File C:\Users\fagne\Documents\fireBaseWithTs\functions\src\User.ts changed, reloading triggers
+[debug] [2022-03-17T20:36:42.164Z] [worker-pool] Shutting down IDLE worker (~diagnostic~)
+[debug] [2022-03-17T20:36:42.165Z] [worker-~diagnostic~-adcef1a9-804a-495a-82c2-b1cf7e349875]: FINISHING
+[debug] [2022-03-17T20:36:42.166Z] [worker-pool] Shutting down IDLE worker (firstApiWithFirebase)
+[debug] [2022-03-17T20:36:42.167Z] [worker-firstApiWithFirebase-efd1511c-1417-411e-889c-bada6de7b314]: FINISHING
+[debug] [2022-03-17T20:36:42.210Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2022-03-17T20:36:42.210Z] [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2022-03-17T20:36:42.210Z] [worker-pool] submitWork(triggerId=)
+[debug] [2022-03-17T20:36:42.211Z] [worker-~diagnostic~-b210a95b-0f2d-4077-8b56-baa716452d96]: Assigning socketPath: \\?\pipe\C:\Users\fagne\Documents\fireBaseWithTs\functions\2436
+[debug] [2022-03-17T20:36:42.211Z] [worker-~diagnostic~-b210a95b-0f2d-4077-8b56-baa716452d96]: BUSY
+[debug] [2022-03-17T20:36:42.220Z] [worker-firstApiWithFirebase-efd1511c-1417-411e-889c-bada6de7b314]: exited
+[debug] [2022-03-17T20:36:42.220Z] [worker-firstApiWithFirebase-efd1511c-1417-411e-889c-bada6de7b314]: FINISHED
+[debug] [2022-03-17T20:36:42.221Z] [worker-~diagnostic~-adcef1a9-804a-495a-82c2-b1cf7e349875]: exited
+[debug] [2022-03-17T20:36:42.221Z] [worker-~diagnostic~-adcef1a9-804a-495a-82c2-b1cf7e349875]: FINISHED
+[debug] [2022-03-17T20:36:43.052Z] [runtime-status] [2436] Functions runtime initialized. {"cwd":"C:\\Users\\fagne\\Documents\\fireBaseWithTs\\functions","node_version":"16.14.0"}
+[info] >  (node:2436) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+[info] >  (Use `node --trace-warnings ...` to show where the warning was created)
+[debug] [2022-03-17T20:36:43.057Z] [runtime-status] [2436] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2022-03-17T20:36:43.060Z] [runtime-status] [2436] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"C:\\Users\\fagne\\Documents\\fireBaseWithTs\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2022-03-17T20:36:43.066Z] [runtime-status] [2436] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.19.0","resolution":"C:\\Users\\fagne\\Documents\\fireBaseWithTs\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2022-03-17T20:36:43.071Z] [runtime-status] [2436] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.19.0","resolution":"C:\\Users\\fagne\\Documents\\fireBaseWithTs\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2022-03-17T20:36:44.103Z] [worker-~diagnostic~-b210a95b-0f2d-4077-8b56-baa716452d96]: IDLE
+[debug] [2022-03-17T20:45:55.813Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-03-17T20:45:55.814Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-03-17T20:45:55.814Z] Accepted request POST /advance-genre-288911/us-central1/firstApiWithFirebase --> firstApiWithFirebase
+[debug] [2022-03-17T20:45:55.815Z] [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 1
+[debug] [2022-03-17T20:45:55.815Z] [worker-pool] Cleaned up workers for firstApiWithFirebase: 1 --> 0
+[debug] [2022-03-17T20:45:55.832Z] [worker-pool] addWorker(firstApiWithFirebase)
+[debug] [2022-03-17T20:45:55.836Z] [worker-pool] Adding worker with key firstApiWithFirebase, total=1
+[debug] [2022-03-17T20:45:55.836Z] [worker-pool] submitWork(triggerId=firstApiWithFirebase)
+[debug] [2022-03-17T20:45:55.837Z] [worker-firstApiWithFirebase-8c7dfea7-b57c-4fa0-a4c5-e3ccf43f4845]: Assigning socketPath: \\?\pipe\C:\Users\fagne\Documents\fireBaseWithTs\functions\17228
+[debug] [2022-03-17T20:45:55.838Z] [worker-firstApiWithFirebase-8c7dfea7-b57c-4fa0-a4c5-e3ccf43f4845]: BUSY
+[debug] [2022-03-17T20:45:57.180Z] [runtime-status] [17228] Functions runtime initialized. {"cwd":"C:\\Users\\fagne\\Documents\\fireBaseWithTs\\functions","node_version":"16.14.0"}
+[info] >  (node:17228) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+[info] >  (Use `node --trace-warnings ...` to show where the warning was created)
+[debug] [2022-03-17T20:45:57.188Z] [runtime-status] [17228] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2022-03-17T20:45:57.196Z] [runtime-status] [17228] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"C:\\Users\\fagne\\Documents\\fireBaseWithTs\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2022-03-17T20:45:57.210Z] [runtime-status] [17228] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.19.0","resolution":"C:\\Users\\fagne\\Documents\\fireBaseWithTs\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2022-03-17T20:45:57.216Z] [runtime-status] [17228] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.19.0","resolution":"C:\\Users\\fagne\\Documents\\fireBaseWithTs\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2022-03-17T20:45:58.698Z] [runtime-status] [17228] Trigger "firstApiWithFirebase" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "firstApiWithFirebase"
+[debug] [2022-03-17T20:45:58.700Z] [runtime-status] [17228] triggerDefinition {"httpsTrigger":{},"name":"firstApiWithFirebase","entryPoint":"firstApiWithFirebase"}
+[debug] [2022-03-17T20:45:58.700Z] [runtime-status] [17228] Running firstApiWithFirebase in mode HTTPS
+[debug] [2022-03-17T20:45:58.713Z] [runtime-status] [17228] Attempting to listen to socketPath: \\?\pipe\C:\Users\fagne\Documents\fireBaseWithTs\functions\17228
+[debug] [2022-03-17T20:45:58.720Z] [functions] Runtime ready! Sending request!
+[debug] [2022-03-17T20:45:58.753Z] [runtime-status] [17228] Ephemeral server handling POST request
+[debug] [2022-03-17T20:45:58.756Z] [runtime-status] [17228] Ephemeral server survived.
+[info] i  functions: Finished "firstApiWithFirebase" in ~1s
+[debug] [2022-03-17T20:45:58.770Z] [worker-firstApiWithFirebase-8c7dfea7-b57c-4fa0-a4c5-e3ccf43f4845]: IDLE
+[debug] [2022-03-17T20:45:58.770Z] [work-queue] {"queueLength":0,"workRunningCount":0}
