@@ -7,7 +7,7 @@ firebase_admin.initializeApp(functions.config().firebase);
 const app = express();
 const main = express();
 
-main.use("/api/v1", app);
+main.use(app);
 main.use(express.json());
 
 export const db = firebase_admin.firestore();
